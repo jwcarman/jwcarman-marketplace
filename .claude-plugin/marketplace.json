@@ -1,0 +1,23 @@
+{
+  "name": "jwcarman-marketplace",
+  "owner": {
+    "name": "James Carman",
+    "email": "jcarman@apache.org"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by James Carman",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ralph-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/jwcarman/ralph-plugin.git"
+      },
+      "description": "Autonomous spec-by-spec AI development loop. Scaffold, write specs, and let Claude implement them one at a time.",
+      "version": "1.0.0",
+      "strict": true
+    }
+  ]
+}
